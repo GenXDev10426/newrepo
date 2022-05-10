@@ -1,0 +1,24 @@
+.header {
+  z-index: 100;
+  display: flex;
+  padding: 1vmax;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(67, 98, 133, 0.37);
+  border-bottom: 2px solid rgba(43, 43, 43, 0.135);
+  position: relative;
+}
+.logo {
+  width: fit-content;
+  padding-right: 8px;
+  margin: 8px;
+  cursor: pointer;
+  position: relative;
+}
+
+.accountIcon {
+  padding: 10vh;
+  margin: "25px 0";
+  width: 10vh;
+  height: 10vh;
+}
